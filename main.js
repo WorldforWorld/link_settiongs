@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
       let c = this.getBoundingClientRect();
       let result = c.left - imgWidth + img.clientWidth;
       let iffes = c.left + imgWidth;
-      
       if (iffes >= window.outerWidth ) {
         modal.style.left = result + 'px';
       } else  {
